@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'groovy'
+    id "org.kordamp.gradle.errorprone" version "0.53.0"
+    id 'info.solidsoft.pitest' version '1.15.0'
+
+}
+group = 'com.l03gr06.sagabi'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+repositories {
+    mavenCentral()
+    google()
+
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:24.0.0'
+    testImplementation 'net.jqwik:jqwik:1.4.0'
+    implementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
+    testImplementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
+    testImplementation 'org.codehaus.groovy:groovy-all:3.0.13'
+    testImplementation 'org.mockito:mockito-core:3.7.7'
+
+}
+
+mainClassName = 'com.l03gr06.sagabi.Game'
+
+test {
+    useJUnitPlatform()
+}
+
+pitest {
+    junit5PluginVersion = '1.2.0'
+    pitestVersion = '1.15.0'
+}

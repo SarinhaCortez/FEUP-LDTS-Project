@@ -1,0 +1,27 @@
+player white
+r
+w
+fire red
+r fire lightning
+w water earth
+water dark_blue
+r water ice
+w earth poison
+air beige
+r air fire
+w earth paranormal lightning
+earth brown
+r paranormal poison
+w water
+ice light_blue
+r water paranormal
+w water
+lightning yellow
+r fire lightning air
+w water
+paranormal gray
+r lightning fire
+w water
+poison purple
+r water ice fire
+w air

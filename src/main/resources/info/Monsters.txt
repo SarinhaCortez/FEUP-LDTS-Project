@@ -1,0 +1,28 @@
+Cat
+10
+10
+10
+10
+fire 10 10
+ice 10 10
+water 10 10
+earth 10 10
+air 10 10
+lightning 10 10
+paranormal 10 10
+poison 10 10
+//
+Bat
+5
+8
+6
+10
+fire 1 7
+ice 4 5
+water 8 1
+earth 2 10
+air 10 5
+lightning 8 15
+paranormal 3 5
+poison 3 5
+//

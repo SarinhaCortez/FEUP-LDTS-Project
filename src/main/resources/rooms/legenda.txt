@@ -1,0 +1,10 @@
+BattleRoom:
+
+# - Wall
+  - Empty
+D - Door
+M - Monster
+S - Sagabi
+H - HealSpot
+T - Dead tree
+t - Alive tree

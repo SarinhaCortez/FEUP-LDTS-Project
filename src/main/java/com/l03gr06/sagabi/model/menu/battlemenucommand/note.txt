@@ -1,0 +1,1 @@
+﻿Tenho 99% de certeza que isto viola os princípios solid, e não sei como consertar

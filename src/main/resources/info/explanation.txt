@@ -1,0 +1,26 @@
+Attacks:
+    Name
+    elementName
+    damage
+    heal
+    hitChance
+    energyCost
+
+Monsters:
+    Name
+    maxHealth
+    maxEnergy
+    speed
+    energyRecovery
+    element attack defence (repeat for many elements..., or else value will be 1 by default)
+
+MonsterImages:
+    Name numColumns numRows
+    ... ImageCharacters ...
+
+Elements:
+    Name color
+    r elements_that_it_resists
+    w elements_that's_weak_against...
+
+note -> player element must exists, because it's hardcoded in certain places.

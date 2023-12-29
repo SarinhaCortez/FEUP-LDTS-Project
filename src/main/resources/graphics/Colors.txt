@@ -1,0 +1,11 @@
+red #8C0813
+white #FFFFFF
+dark_blue #1A3AAD
+light_blue #B1E8F0
+yellow #FAEA41
+purple #93139E
+brown #824C1A
+green #22E322
+gray #222222
+beige #bdb286
+learn_menu_purple #7F5283
